@@ -28,14 +28,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		74622567173DCADA003EE853 /* OCR-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OCR-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74622567173DCADA003EE853 /* OCR-Example2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OCR-Example2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7462256A173DCADA003EE853 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7462256C173DCADA003EE853 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7462256E173DCADA003EE853 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		74622572173DCADA003EE853 /* OCR-Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCR-Example-Info.plist"; sourceTree = "<group>"; };
+		74622572173DCADA003EE853 /* OCR-Example2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCR-Example2-Info.plist"; sourceTree = "<group>"; };
 		74622574173DCADA003EE853 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74622576173DCADA003EE853 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		74622578173DCADA003EE853 /* OCR-Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCR-Example-Prefix.pch"; sourceTree = "<group>"; };
+		74622578173DCADA003EE853 /* OCR-Example2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCR-Example2-Prefix.pch"; sourceTree = "<group>"; };
 		74622579173DCADA003EE853 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7462257A173DCADA003EE853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7462257C173DCADA003EE853 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -228,7 +228,7 @@
 		74622568173DCADA003EE853 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				74622567173DCADA003EE853 /* OCR-Example.app */,
+				74622567173DCADA003EE853 /* OCR-Example2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -264,10 +264,10 @@
 			isa = PBXGroup;
 			children = (
 				746226E2173DDA6A003EE853 /* tessdata */,
-				74622572173DCADA003EE853 /* OCR-Example-Info.plist */,
+				74622572173DCADA003EE853 /* OCR-Example2-Info.plist */,
 				74622573173DCADA003EE853 /* InfoPlist.strings */,
 				74622576173DCADA003EE853 /* main.m */,
-				74622578173DCADA003EE853 /* OCR-Example-Prefix.pch */,
+				74622578173DCADA003EE853 /* OCR-Example2-Prefix.pch */,
 				7462257C173DCADA003EE853 /* Default.png */,
 				7462257E173DCADA003EE853 /* Default@2x.png */,
 				74622580173DCADA003EE853 /* Default-568h@2x.png */,
@@ -481,9 +481,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		74622566173DCADA003EE853 /* OCR-Example */ = {
+		74622566173DCADA003EE853 /* OCR-Example2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7462258A173DCADA003EE853 /* Build configuration list for PBXNativeTarget "OCR-Example" */;
+			buildConfigurationList = 7462258A173DCADA003EE853 /* Build configuration list for PBXNativeTarget "OCR-Example2" */;
 			buildPhases = (
 				74622563173DCADA003EE853 /* Sources */,
 				74622564173DCADA003EE853 /* Frameworks */,
@@ -493,9 +493,9 @@
 			);
 			dependencies = (
 			);
-			name = "OCR-Example";
+			name = "OCR-Example2";
 			productName = "OCR-Example";
-			productReference = 74622567173DCADA003EE853 /* OCR-Example.app */;
+			productReference = 74622567173DCADA003EE853 /* OCR-Example2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -507,7 +507,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Christopher Constable";
 			};
-			buildConfigurationList = 74622562173DCADA003EE853 /* Build configuration list for PBXProject "OCR-Example" */;
+			buildConfigurationList = 74622562173DCADA003EE853 /* Build configuration list for PBXProject "OCR-Example2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -519,7 +519,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				74622566173DCADA003EE853 /* OCR-Example */,
+				74622566173DCADA003EE853 /* OCR-Example2 */,
 			);
 		};
 /* End PBXProject section */
@@ -640,14 +640,14 @@
 				CLANG_CXX_LIBRARY = "compiler-default";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OCR-Example/OCR-Example-Prefix.pch";
-				INFOPLIST_FILE = "OCR-Example/OCR-Example-Info.plist";
+				GCC_PREFIX_HEADER = "OCR-Example/OCR-Example2-Prefix.pch";
+				INFOPLIST_FILE = "OCR-Example/OCR-Example2-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/OCR-Example/tesseract-ios-lib/lib\"",
 					"\"$(SRCROOT)/External/tesseract-ios-lib/lib\"",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "OCR-Example2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -659,14 +659,14 @@
 				CLANG_CXX_LIBRARY = "compiler-default";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OCR-Example/OCR-Example-Prefix.pch";
-				INFOPLIST_FILE = "OCR-Example/OCR-Example-Info.plist";
+				GCC_PREFIX_HEADER = "OCR-Example/OCR-Example2-Prefix.pch";
+				INFOPLIST_FILE = "OCR-Example/OCR-Example2-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/OCR-Example/tesseract-ios-lib/lib\"",
 					"\"$(SRCROOT)/External/tesseract-ios-lib/lib\"",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "OCR-Example2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -674,7 +674,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		74622562173DCADA003EE853 /* Build configuration list for PBXProject "OCR-Example" */ = {
+		74622562173DCADA003EE853 /* Build configuration list for PBXProject "OCR-Example2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74622588173DCADA003EE853 /* Debug */,
@@ -683,7 +683,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7462258A173DCADA003EE853 /* Build configuration list for PBXNativeTarget "OCR-Example" */ = {
+		7462258A173DCADA003EE853 /* Build configuration list for PBXNativeTarget "OCR-Example2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7462258B173DCADA003EE853 /* Debug */,
