@@ -41,10 +41,13 @@
         __block Tesseract* tesseract = [[Tesseract alloc] initWithDataPath:@"/tessdata" language:@"eng"];
         
         // Uncomment to only search for alpha-numeric characters.
-        [tesseract setVariableValue:@"0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" forKey:@"tessedit_char_whitelist"];
+        [tesseract setVariableValue:@"0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/_" forKey:@"tessedit_char_whitelist"];
+        [tesseract setVariableValue:@"T" forKey:@"tessedit_write_images"];
         
         // Shrink the image. Tesseract works better with smaller images than what the iPhone puts out.
-        CGSize newSize = CGSizeMake(self.selectedImage.size.width / 3, self.selectedImage.size.height / 3);
+        int zzz = 2;
+        CGSize newSize = CGSizeMake(self.selectedImage.size.width / zzz, self.selectedImage.size.height / zzz);
+     //   CGSize newSize = CGSizeMake(self.selectedImage.size.width, self.selectedImage.size.height);
         UIGraphicsBeginImageContextWithOptions(newSize, NO, 0.0);
         [self.selectedImage drawInRect:CGRectMake(0, 0, newSize.width, newSize.height)];
         UIImage *resizedImage = UIGraphicsGetImageFromCurrentImageContext();

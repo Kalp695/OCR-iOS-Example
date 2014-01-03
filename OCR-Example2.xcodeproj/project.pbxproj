@@ -23,7 +23,6 @@
 		746226E6173DDDC9003EE853 /* ImageProcessing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 746226E5173DDDC9003EE853 /* ImageProcessing.mm */; };
 		74622784173DEE86003EE853 /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7462277E173DEE86003EE853 /* liblept.a */; };
 		74622785173DEE86003EE853 /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7462277F173DEE86003EE853 /* libtesseract_all.a */; };
-		74622786173DEE86003EE853 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 74622780173DEE86003EE853 /* README.md */; };
 		74622787173DEE86003EE853 /* Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = 74622783173DEE86003EE853 /* Tesseract.mm */; };
 /* End PBXBuildFile section */
 
@@ -194,7 +193,6 @@
 		7462277C173DEE86003EE853 /* werdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = werdit.h; sourceTree = "<group>"; };
 		7462277E173DEE86003EE853 /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblept.a; sourceTree = "<group>"; };
 		7462277F173DEE86003EE853 /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtesseract_all.a; sourceTree = "<group>"; };
-		74622780173DEE86003EE853 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		74622782173DEE86003EE853 /* Tesseract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tesseract.h; sourceTree = "<group>"; };
 		74622783173DEE86003EE853 /* Tesseract.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Tesseract.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -289,7 +287,6 @@
 			children = (
 				746226EB173DEE86003EE853 /* include */,
 				7462277D173DEE86003EE853 /* lib */,
-				74622780173DEE86003EE853 /* README.md */,
 			);
 			path = "tesseract-ios-lib";
 			sourceTree = "<group>";
@@ -535,7 +532,6 @@
 				74622581173DCADA003EE853 /* Default-568h@2x.png in Resources */,
 				74622584173DCADA003EE853 /* MainStoryboard.storyboard in Resources */,
 				746226E3173DDA6A003EE853 /* tessdata in Resources */,
-				74622786173DEE86003EE853 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,17 +632,17 @@
 		7462258B173DCADA003EE853 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCR-Example/OCR-Example2-Prefix.pch";
 				INFOPLIST_FILE = "OCR-Example/OCR-Example2-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/OCR-Example/tesseract-ios-lib/lib\"",
 					"\"$(SRCROOT)/External/tesseract-ios-lib/lib\"",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "OCR-Example2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -655,17 +651,17 @@
 		7462258C173DCADA003EE853 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
-				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCR-Example/OCR-Example2-Prefix.pch";
 				INFOPLIST_FILE = "OCR-Example/OCR-Example2-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/OCR-Example/tesseract-ios-lib/lib\"",
 					"\"$(SRCROOT)/External/tesseract-ios-lib/lib\"",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "OCR-Example2";
 				WRAPPER_EXTENSION = app;
 			};
