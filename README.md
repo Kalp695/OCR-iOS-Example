@@ -1,10 +1,12 @@
 OCR-iOS-Example
 ===============
 
-RVM 2014 - Upgraded for iOS7, tesseract 3.02, and leptonica-1.69
-===============
 
 A simple example of how to do optical character recognition (OCR) on iOS.
+
+### Upgraded
+
+Upgraded for iOS7, tesseract 3.02, and leptonica-1.69
 
 ### About
 
