@@ -42,10 +42,11 @@
         
         // Uncomment to only search for alpha-numeric characters.
         [tesseract setVariableValue:@"0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/_" forKey:@"tessedit_char_whitelist"];
-        [tesseract setVariableValue:@"T" forKey:@"tessedit_write_images"];
+        [tesseract setVariableValue:@"2" forKey:@"tessedit_pageseg_mode"];
+        
         
         // Shrink the image. Tesseract works better with smaller images than what the iPhone puts out.
-        int zzz = 2;
+        int zzz = 3;
         CGSize newSize = CGSizeMake(self.selectedImage.size.width / zzz, self.selectedImage.size.height / zzz);
      //   CGSize newSize = CGSizeMake(self.selectedImage.size.width, self.selectedImage.size.height);
         UIGraphicsBeginImageContextWithOptions(newSize, NO, 0.0);
